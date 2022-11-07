@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <style>
+        .tweet-button{
+            background-color: rgb(11, 148, 234);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            height: 36px;
+            width: 70px;
+            border-radius: 16px;
+            font-weight: bold;
+            font-size: 13px;
+            cursor: pointer;
+            transition: box-shadow 0.25x ;
+
+
+        }
+        .tweet-button:hover{
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+        }
+
+        .tweet-button:active{
+            background-color: green;
+        }
+
+        .join-button{
+            background-color: white;
+            border-color: rgb(41,118,211);
+            color:rgb(59, 137, 210);
+            border-style: solid;
+            border-width: 1px;
+            height: 36px;
+            width: 60px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: background-color 0.25s , color 0.25s;
+        }
+
+        
+
+        .join-button:hover{
+            background-color: rgb(6, 96, 180);
+            color: white;
+
+        }
+
+        
+        .join-button:active{
+            opacity: 0.7;
+
+        }
+
+
+        .subscribe-button{
+            background-color: rgb(190, 0, 0);
+            color: white;
+            border:none;
+            height: 36px;
+            width: 105px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: opacity 0.15s ;
+
+        }
+
+        .subscribe-button:hover{
+            opacity: 0.7;
+        }
+        .subscribe-button:active{
+            opacity: 0.3;
+        }
+
+        .ui-button{
+            color: green;
+            background-color: rgb(2, 24, 47);
+            border-radius: 2px;
+            height: 40px;
+            width: 350px;
+            font-weight: bold;
+            border-color: green;
+            font-size: 13px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        a{
+            color: blue;
+            list-style: none;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;       
+        }
+
+        a:hover{
+            color: red
+        }
+    </style>
+</head>
+<body>
+    <button class = "subscribe-button">SUBSCRIBE</button>
+    <button class="join-button"> JOIN</button>
+    <button class = "tweet-button">Tweet</button>
+    
+    
+
+    <p>Hello World HTML</p>
+    <a href="https://www.google.com/" target="_blank">Search with Google</a><br><br>
+
+    <button class = "ui-button">Solve a Challenge</button><br><br>
+
+    <image  xlink:href="https://hrcdn.net/fcore/assets/badges/python-f70befd824.svg" x="50%" y="22" height="27" width="27" transform="translate(-13.5, 0)"></image>
+
+
+</body>
+</html>
